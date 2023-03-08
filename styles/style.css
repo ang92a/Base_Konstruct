@@ -122,13 +122,13 @@ ul, ol {
   padding-left: 47px;
 }
 
-.our_story {
+.story {
   background: #fff;
 }
-.our_story__wrapper {
+.story__wrapper {
   margin: 48px auto 126px;
 }
-.our_story__title {
+.story__title {
   font-family: Open Sans;
   font-size: 18px;
   font-weight: 700;
@@ -137,7 +137,7 @@ ul, ol {
   text-align: center;
   color: #48555B;
 }
-.our_story__line {
+.story__line {
   content: "";
   border-bottom: 2px solid #00A4E5;
   width: 50px;
@@ -179,10 +179,10 @@ ul, ol {
   display: flex;
   position: relative;
 }
-.content__img_l {
+.content__img_left {
   padding-left: 15px;
 }
-.content__img_text1 {
+.content__img_textleft {
   position: absolute;
   top: 15px;
   left: 20px;
@@ -195,10 +195,10 @@ ul, ol {
   color: #fff;
   width: 66px;
 }
-.content__img_2 {
+.content__img_center {
   padding-left: 15px;
 }
-.content__img_text2 {
+.content__img_textcenter {
   position: absolute;
   top: 15px;
   left: 180px;
@@ -211,10 +211,10 @@ ul, ol {
   color: #fff;
   width: 66px;
 }
-.content__img_3 {
+.content__img_right {
   padding-left: 15px;
 }
-.content__img_text3 {
+.content__img_textright {
   position: absolute;
   top: 15px;
   left: 324px;
