@@ -20,20 +20,18 @@
         height: 12px
         margin: 0 auto
 
-.content
-    display: flex
-    flex-direction: row
-    flex-wrap: wrap
-    color: #48555B
-    margin-top: 77px
-    justify-content: space-between
+    &__innet
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        color: #48555B
+        margin-top: 77px
+        justify-content: space-between
 
     &__text
-        display: flex
-        flex-direction: column
         max-width: 405px
 
-        &_top
+        &_title
             font-family: Open Sans
             font-size: 20px
             font-weight: 700
@@ -42,7 +40,7 @@
             text-align: left
             margin-bottom: 30px
 
-        &_bottom
+        &_subtitle
             font-family: Open Sans
             font-size: 13px
             font-weight: 400
@@ -50,58 +48,53 @@
             letter-spacing: 0.18750004470348358px
             text-align: left
 
-    &__img
+    &__images
         display: flex
+        justify-content: space-between
+        width: 460px
+        align-items: center
         position: relative
-        // justify-content: space-around
+        
+    &__text_left
+        position: absolute
+        top: 15px
+        left: 10px 
+        font-family: Open Sans
+        font-size: 24px
+        font-weight: 700
+        line-height: 29px
+        letter-spacing: 0.18750004470348358px
+        text-align: left
+        color: #fff
+        width: 108px
 
-        &_left
-            padding-left: 15px
+    &__text_center
+        position: absolute
+        top: 15px
+        left: 170px 
+        font-family: Open Sans
+        font-size: 24px
+        font-weight: 700
+        line-height: 29px
+        letter-spacing: 0.18750004470348358px
+        text-align: left
+        color: #fff
+        width: 108px
+    
+    &__text_right
+        position: absolute
+        top: 15px
+        left: 330px 
+        font-family: Open Sans
+        font-size: 24px
+        font-weight: 700
+        line-height: 29px
+        letter-spacing: 0.18750004470348358px
+        text-align: left
+        color: #fff
+        width: 108px
+      
 
-        &_textleft
-            position: absolute
-            top: 15px
-            left: 20px
-            font-family: Open Sans
-            font-size: 24px
-            font-weight: 700
-            line-height: 29px
-            letter-spacing: 0.18750004470348358px
-            text-align: left
-            color: #fff
-            width: 66px
-
-        &_center
-            padding-left: 15px
-
-        &_textcenter
-            position: absolute
-            top: 15px
-            left: 180px
-            font-family: Open Sans
-            font-size: 24px
-            font-weight: 700
-            line-height: 29px
-            letter-spacing: 0.18750004470348358px
-            text-align: left
-            color: #fff
-            width: 66px
-
-        &_right
-            padding-left: 15px    
-
-        &_textright
-            position: absolute
-            top: 15px
-            left: 324px
-            font-family: Open Sans
-            font-size: 24px
-            font-weight: 700
-            line-height: 29px
-            letter-spacing: 0.18750004470348358px
-            text-align: left
-            color: #fff
-            width: 66px
     
 
 
