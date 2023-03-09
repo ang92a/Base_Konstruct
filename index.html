@@ -39,11 +39,11 @@
     <main>
       <section class="menu">
         <div class="container menu__wrapper">
-          <img
+          <a href="#"><img
             class="menu__logo"
             src="./images/header/projeco-logo-black.svg"
             alt="logo"
-          />
+          /></a>
           <ul class="menu__list">
             <li><a class="menu__item" href="#">HOME</a></li>
             <li><a class="menu__item" href="#">ABOUT</a></li>
@@ -73,12 +73,18 @@
               </p>
             </div>
             <div class="story__images">
-              <img src="./images/our_story/1.png" alt="image" />
-              <img src="./images/our_story/2.png" alt="image" />
-              <img src="./images/our_story/3.png" alt="image" />
-              <div class="story__text_left">WE PLAN</div>
-              <div class="story__text_center">WE MANAGE</div>
-              <div class="story__text_right">WE BUILD</div>
+              <div class="story__images_left">
+                <img src="./images/our_story/1.png" alt="image" />
+                <p class="story__images_text">WE PLAN</p>
+              </div>
+              <div class="story__images_center">
+                <img src="./images/our_story/2.png" alt="image" />
+                <p class="story__images_text">WE MANAGE</p>
+              </div>
+              <div class="story__images_right">
+                <img src="./images/our_story/3.png" alt="image" />
+                <p class="story__images_text">WE BUILD</p>
+              </div>
             </div>
           </div>
         </div>
@@ -95,7 +101,7 @@
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat.
             </p>
-            <div class="capabilities__text_button">ALL SERVICES</div>
+            <a class="capabilities__text_button" href="#">ALL SERVICES</a>
           </div>
           <div class="capabilities__items">
             <!-- 1 столбец -->
@@ -153,7 +159,9 @@
     <footer class="newsletter">
       <div class="container newsletter__wrapper">
         <div class="newsletter__top">
-          <label for="email"><p class="newsletter__title">Newsletter Signup</p></label>
+          <label for="email"
+            ><p class="newsletter__title">Newsletter Signup</p></label
+          >
           <div class="newsletter__button">
             <input
               id="email"
