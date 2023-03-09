@@ -27,11 +27,13 @@
           src="./images/header/projecologo.svg"
           alt="logo"
         />
-        <p class="header__title">PARTNER WITH KONSTUCT</p>
-        <p class="header__subtitle">
-          An award-winning construction management firm
-        </p>
-        <p class="header__text">SCROLL DOWN</p>
+        <div>
+          <p class="header__title">PARTNER WITH KONSTUCT</p>
+          <p class="header__subtitle">
+            An award-winning construction management firm
+          </p>
+        </div>
+        <a class="header__text" href="#scroll">SCROLL DOWN</a>
       </div>
     </header>
     <main>
@@ -53,7 +55,7 @@
       </section>
       <section class="story">
         <div class="container story__wrapper">
-          <p class="story__title">OUR STORY</p>
+          <p class="story__title" id="scroll">OUR STORY</p>
           <div class="story__line"></div>
           <div class="story__innet">
             <div class="story__text">
@@ -144,14 +146,14 @@
       <section class="touch">
         <div class="container touch__wrapper">
           <p class="touch__title">Want to build something amazing?</p>
-          <p class="touch__subtittle">GET IN TOUCH</p>
+          <a class="touch__subtitle" href="#">GET IN TOUCH</a>
         </div>
       </section>
     </main>
     <footer class="newsletter">
       <div class="container newsletter__wrapper">
         <div class="newsletter__top">
-          <p class="newsletter__title">Newsletter Signup</p>
+          <label for="email"><p class="newsletter__title">Newsletter Signup</p></label>
           <div class="newsletter__button">
             <input
               id="email"
@@ -160,7 +162,7 @@
               placeholder="test@youremail.com"
               required
             />
-            <button class="newsletter__signup">SIGNUP</button>
+            <a class="newsletter__signup" href="#">SIGNUP</a>
           </div>
         </div>
         <div>

@@ -30,9 +30,12 @@ ul, ol {
 .header__wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 41px 0 71px;
+  height: 100%;
+}
+.header__logo {
+  padding-top: 41px;
 }
 .header__title {
   font-family: Bebas Neue;
@@ -41,7 +44,6 @@ ul, ol {
   line-height: 72px;
   letter-spacing: 5.7093749046px;
   color: #fff;
-  margin-top: 305px;
   text-align: center;
 }
 .header__subtitle {
@@ -50,7 +52,6 @@ ul, ol {
   font-weight: 700;
   line-height: 22px;
   color: #fff;
-  margin-bottom: 221px;
   text-align: center;
 }
 .header__text {
@@ -61,12 +62,22 @@ ul, ol {
   letter-spacing: 3.7000000477px;
   text-align: center;
   color: #fff;
+  padding-bottom: 71px;
+  text-decoration: none;
+  display: block;
+}
+.header__text:hover {
+  transform: scale(1.5);
 }
 
 .menu {
   max-width: 100%;
   border-bottom: 2px solid #E6E6E6;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
 }
 .menu__wrapper {
   display: flex;
@@ -299,7 +310,7 @@ ul, ol {
   max-width: 350px;
   text-align: center;
 }
-.touch__subtittle {
+.touch__subtitle {
   font-family: Open Sans;
   font-size: 13px;
   font-weight: 700;
@@ -311,6 +322,11 @@ ul, ol {
   height: 40px;
   text-align: center;
   padding: 11px 0;
+  display: block;
+  text-decoration: none;
+}
+.touch__subtitle:hover {
+  background-color: #096c93;
 }
 
 #email {
@@ -324,6 +340,9 @@ ul, ol {
   padding: 10px 98px 10px 16px;
   border: #979797 1px solid;
   height: 40px;
+}
+#email:focus {
+  outline: none;
 }
 
 .newsletter {
@@ -363,6 +382,10 @@ ul, ol {
   background: #00A4E5;
   border: none;
   margin-left: -4px;
+  text-decoration: none;
+}
+.newsletter__signup:hover {
+  background-color: #096c93;
 }
 .newsletter__end {
   padding: 23px 0;
